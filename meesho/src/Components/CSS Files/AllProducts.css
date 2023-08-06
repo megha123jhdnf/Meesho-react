@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    text-decoration: none;
+  }
+  
+  #allscreen {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  
+  #allbody {
+    display: flex;
+  }
+  
+  #allleft {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 20%;
+    /* border: 1px solid blue; */
+  }
+  
+  #allleft > div:nth-child(1) > p:nth-child(1) {
+    font-size: 24px;
+    font-weight: 700;
+    color: #353543;
+  }
+  
+  #allleft > div:nth-child(1) > p:nth-child(2) {
+    font-size: 16px;
+    color: #353543;
+    margin-top: 15px;
+  }
+  
+  #allside > div:nth-child(1) {
+    font-size: 16x;
+    color: grey;
+    width: 89%;
+    border: 1px solid rgb(196, 190, 190);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+  }
+  
+  #allside > div:nth-child(1) > span:nth-child(2) > select {
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #353543;
+    width: 76%;
+  }
+  
+  #allside > div:nth-child(2) {
+    width: 89%;
+    border: 1px solid rgb(196, 190, 190);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    line-height: 55px;
+  }
+  
+  #allside > div:nth-child(2) > div {
+    border-bottom: 1px solid rgb(184, 177, 177);
+  }
+  
+  #allside > div:nth-child(2) > div:nth-child(1) {
+    line-height: 25px;
+  }
+  
+  #allside > div:nth-child(2) > div:nth-child(1) > h4 {
+    font-size: 16px;
+    color: #353543;
+  }
+  
+  #allside > div:nth-child(2) > div:nth-child(1) > p {
+    font-size: 13px;
+    color: rgb(154, 152, 152);
+    font-weight: 600;
+    padding-bottom: 12px;
+  }
+  
+  #allside > div:nth-child(2) > div > select {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #353543;
+    width: 97%;
+  }
+  
+  #allright {
+    width: 63%;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #allright > div {
+    width: 23%;
+    height: 380px;
+    border: 1px solid rgb(196, 190, 190);
+    border-radius: 7px;
+    margin: 8px;
+    line-height: 23px;
+  }
+  
+  #allright > div > div:nth-child(1) {
+    width: 100%;
+    height: 230px;
+  }
+  
+  #allright > div > div:nth-child(1) > img {
+    width: 90%;
+    height: 100%;
+   margin-left: 11px;
+  }
+
+  #allright >div:nth-child(4) > div:nth-child(1) > img {
+    width: 90%;
+    height: 100%;
+   margin-left: 11px;
+  }
+  
+  #allright > div > p:nth-child(2) {
+    font-size: 16px;
+    color: grey;
+    margin-left: 12px;
+    margin-top: 20px;
+  }
+  
+  #allright > div > span:nth-child(3) {
+    font-size: 24px;
+    margin-left: 12px;
+    color: #353543;
+    font-weight: 600;
+  }
+  
+  #allright > div > span:nth-child(4) {
+    font-size: 12px;
+    color: grey;
+  }
+  
+  #allright > div > p:nth-child(5) {
+    font-size: 12px;
+    color: grey;
+    font-weight: 600;
+    margin-left: 12px;
+  }
+  
+  #allright > div > div:nth-child(6) {
+    display: flex;
+    margin-left: 12px;
+    margin-top:5px;
+  }
+  
+  #allright > div > div:nth-child(6) > span:nth-child(1) {
+    display: flex;
+    border: 1px solid #23bb75;
+    font-size: 14px;
+    padding: 0px 5px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: #23bb75;
+    color: white;
+  }
+  
+  #allright > div > div:nth-child(6) > span:nth-child(1) > p {
+    margin-top: 2px;
+  }
+  
+  #allright > div > div:nth-child(6) > span:nth-child(1) > i {
+    margin: 3px;
+  }
+  
+  #allright > div > div:nth-child(6) > p {
+    font-size: 12px;
+    color: grey;
+    margin-left: 10px;
+  }
+  
