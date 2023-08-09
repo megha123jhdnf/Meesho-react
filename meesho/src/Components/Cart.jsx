@@ -2,8 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import '../Components/CSS Files/Cart.css'
-import { AuthContext } from "./Context/AuthContext"
-
+import {AuthContext} from "./Context/AuthContext"
 const Cart = () => {
     const { state } = useContext(AuthContext);
   const [finalprice, setFinalPrice] = useState(0);
@@ -111,7 +110,7 @@ useEffect(() => {
                 <p style={{fontWeight: "600", marginTop: "10px"}}>X REMOVE</p>
               </div>
               <div>
-                <p>EDIT</p>
+                {/* <p>EDIT</p> */}
               </div>
             </div>
             <div>

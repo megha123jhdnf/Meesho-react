@@ -6,28 +6,29 @@
   
   #logscreen {
     width: 100%;
-    border: 1px solid #fdeaf0;
+    border: 1px solid #ee0851;
     background-color:#fdeaf0 ;
   }
   #logbody {
     width: 30%;
-    height: 750px;
+    height: 390px;
     /* border: 2px solid blue; */
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 80px;
     background-color: white;
   }
   
   #logbody > div:nth-child(1) > img {
     width: 100%;
+    height:100px;
   }
   
   #logbody > div:nth-child(2) {
-    margin-left: 45px;
-    font-size: 20px;
+    margin-left: 20px;
+    font-size: 15px;
     font-weight: 700;
-    margin-top: 40px;
+    margin-top: 2px;
     color: #353543;
   }
 
@@ -35,13 +36,14 @@
   /* -----------------**------------------- */
 
   #logform>form{
-    width: 75%;
+    width: 70%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #logform>form>label{
     color: #9d9e9f;
+    font-size: 11px;
 }
 
 #logform>form>input{
@@ -50,12 +52,12 @@
     border: none;
     outline: none;
     border-bottom:1px solid #b0b1b2;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 #logform>form>select{
     width: 100%;
-    height: 27px;
+    height: 20px;
     border: none;
     outline: none;
     border-bottom:1px solid #b0b1b2;
@@ -64,7 +66,7 @@
 
 #logform>form>button{
   width: 75%;
-  height: 45px;
+  height: 30px;
   border: 1px solid #9f2089;
   background-color: #9f2089;
   border-radius: 5px;
@@ -72,7 +74,7 @@
   font-size: 16px;
   font-weight: 700;
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 15px;
   letter-spacing: 2px;
 }
 
@@ -82,8 +84,8 @@
   
   
   #logbody > div:nth-child(4){
-      font-size: 14px;
-      margin-left: 23%;
+      font-size: 10px;
+      margin-left: 18%;
       margin-top: 25px;
   }
 
@@ -93,11 +95,11 @@
   }
   
   #logbody > div:nth-child(5){
-      margin-top: 70px;
-      font-size: 12px;
+      margin-top: 10px;
+      font-size: 9px;
       font-weight: 600;
       color: gray;
-      margin-left: 20%;
+      margin-left: 5%;
   }
   
  

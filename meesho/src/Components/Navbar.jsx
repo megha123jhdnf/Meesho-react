@@ -1,10 +1,12 @@
 import React, { useContext, useEffect, useState } from "react";
 import "../Components/CSS Files/Home.css";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "./Context/AuthContext"
+// import { AuthContext } from "./Context/AuthContext";
+
 import { v4 as uuidv4 } from "uuid";
 import { toast } from "react-hot-toast";
 import "../Components/CSS Files/AddProducts.css";
+import { AuthContext } from "./Context/AuthContext";
 
 const Navbar = () => {
   const { state, Login, Logout } = useContext(AuthContext);
@@ -176,7 +178,7 @@ const Navbar = () => {
                   <p>
                     <b>Hello {userData.name} </b>
                   </p>
-                  <p>+9175******54</p>
+                  <p>+91********54</p>
                 </div>
                 <div>
                   <i onClick={proopen} class="fa-regular fa-pen-to-square fa-xl"></i>
@@ -339,10 +341,10 @@ const Navbar = () => {
               </div>
               <div>
                 <i
-                  onClick={() => router("/cart")}
+                 
                   class="fa-solid fa-cart-shopping"
                 ></i>
-                <p>Cart</p>
+                <p  onClick={() => router('/cart')}>Cart</p>
               </div>
             </div>
           </div>
@@ -350,7 +352,7 @@ const Navbar = () => {
       </div>
       <div id="navdown">
         <p onClick={() => router("/allproducts")}>Women Ethnic</p>
-        <p>Women Western</p>
+        {/* <p>Women Western</p> */}
         <p>Men</p>
         <p>Kids</p>
         <p>Home & Kitchen</p>

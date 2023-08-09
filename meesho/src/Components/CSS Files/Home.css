@@ -26,7 +26,8 @@
   }
 
   #popup>div:nth-child(1)>p>b{
-    font-size: 18px;
+    font-size: 25px;
+    /* border:1px solid red; */
   }
 
   #popup>div:nth-child(1){
@@ -43,14 +44,14 @@
 
   #popup>div:nth-child(1) > button {
     width: 90%;
-    height: 45px;
+    height: 40px;
     border: 1px #9f2089;
     background-color: #9f2089;
     border-radius: 5px;
     color: white;
     font-size: 17px;
     margin-top: 10px;
-    margin-left: 7px;
+    margin-left: 2px;
   }
 
   #popup>div:nth-child(2){
@@ -216,8 +217,8 @@
   }
   
   #napic{
-      width: 170px;
-      height:95%;
+      width: 100px;
+      height:50%;
       /* border: 1px solid red; */
   }
   
@@ -228,17 +229,18 @@
   }
   
   #nasearch{
-      width: 380px;
-      height: 45px;
+      width: 350px;
+      height: 30px;
       border: 1px solid grey;
       border-radius: 5px;
+      margin-left: 5px;
   }
   
   #nasearch>input{
       border: none;
       outline: none;
-      margin-top: 10px;
-      font-size: 15px;
+      margin-top: 5px;
+      font-size: 9px;
       width: 90%;
       padding-top: 5px;
   }
@@ -262,10 +264,11 @@
   #naapp{
       display: flex;
       height: 45px;
-      width: 30%;
+      width: 32%;
       /* border: 1px solid brown; */
       border-right: 2px solid rgb(161, 160, 160);
       align-items: center;
+      font-size: 11px;
   }
   
   #naapp>i{
@@ -275,12 +278,14 @@
   }
   
   #nasupp{
-      width: 30%;
+      width: 32%;
       height: 35px;
       /* border: 1px solid brown;  */
       border-right: 2px solid rgb(161, 160, 160);
       text-align: center;
       padding-top: 15px;
+      font-size: 11px;
+
   }
   
   #naprofile{
@@ -290,28 +295,31 @@
       justify-content: space-around;
       text-align: center;
       line-height: 25px;
-      font-size: 15px;
+      font-size: 11px;
   }
   
   #navdown  {
       width: 100%;
       height: 50px;
       margin: auto;
-      border-bottom: 1px solid rgb(161, 160, 160);
+      /* border-bottom: 1px solid rgb(218, 22, 22); */
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       color: #353543 ;
       /* margin-top: 70px; */
   }
+  #navdown >p{
+    font-size: 10px;
+  }
   
   #holowest{
       width: 70%;
-      height: 345px;
-      /* border: 1px solid black; */
+      height: 280px;
+      border: 5px solid rgb(241, 235, 235);
       margin: auto;
       display: flex;
-      margin-top: 50px;
+      margin-top: 20px;
   }
   
   #holeft{
@@ -320,57 +328,78 @@
   }
   
   #hotext{
-      font-size: 48px;
+      font-size: 20px;
       font-weight: 600;
       color: #353543;
       margin-top: 50px;
+      /* border: 1px solid red; */
+
   }
   
   #hocon{
       display: flex;
       color: #353543;
-      font-size: 16px;
+      font-size: 9px;
       font-weight: 500;
-      padding-left: 20px;
+      padding-left: 5px;
       margin-top: 30px;
+      /* border: 5px solid rgb(68, 0, 255); */
+
   }
   
   #hocon>div{
-      border-right: 1px solid rgb(42, 40, 40) ;
-      padding-right:70px ;
+      /* border-right: 1px solid rgb(224, 9, 9) ; */
+      padding-right:20px ;
+      padding-top: 5px;
   }
   #hocon>img{
       padding-right: 10px;
+
   }
   
   #hoplay{
       display: flex;
       width: 300px;
       height: 45px;
-      border: 1px solid #9f2089;
+      border: 1px solid #9f7d20;
       background-color: #9f2089;
       border-radius: 5px;
       align-items: center;
       color: white;
       margin-top: 30px;
-      margin-left: 20px;
+      margin-left: 5px;
   }
   
   #hoplay>img{
       width: 25px;
       height: 30px; 
       margin-left: 20px;
+      /* border:1px solid blue; */
   }
   
   #hoplay>p{
       margin-left: 20px;
+  /* border:1px solid red; */
+
   }
   
   #hobody>div:nth-child(2){
-      font-size: 36px;
+      font-size: 11px;
       font-weight: 700;
       margin-left: 470px;
       color: #353543;
       margin-top: 70px;
+      /* border:1px solid red; */
+  }
+  #horight{
+  width:50%;
+  height: 280px;
+  /* border:5px solid red; */
+
+  }
+  #horight>img{
+    width:100%;
+    height: 100%;
+
   }
   

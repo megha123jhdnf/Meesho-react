@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import '../Components/CSS Files/SingleProducts.css'
 import { useNavigate, useParams } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
-import { AuthContext } from "./Context/AuthContext"
+import { AuthContext } from './Context/AuthContext';
 
 const SingleProduct = () => {
 
@@ -203,13 +203,13 @@ const SingleProduct = () => {
      <div>
        <p>3 Similar Products</p>
        <img
-         src="https://images.meesho.com/images/products/256665222/f4o2w_128.webp"
+         src="https://images.meesho.com/images/products/64908167/dfego_400.webp"
        />
        <img
-         src="https://images.meesho.com/images/products/256665224/h8qbs_128.webp"
+         src="https://images.meesho.com/images/products/297732028/ov4ox_400.webp"
        />
        <img
-         src="https://images.meesho.com/images/products/256665228/xefee_128.webp"
+         src="https://images.meesho.com/images/products/223461633/5j0lz_400.webp"
        />
      </div>
    </div>
