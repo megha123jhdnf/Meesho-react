@@ -176,12 +176,12 @@ const Navbar = () => {
                 </div>
                 <div>
                   <p>
-                    <b>Hello {userData.name} </b>
+                    <b onClick={proopen}>Hello {userData.name} </b>
                   </p>
                   <p>+91********54</p>
                 </div>
                 <div>
-                  <i onClick={proopen} class="fa-regular fa-pen-to-square fa-xl"></i>
+                  <i   class="fa-regular fa-pen-to-square fa-xl"></i>
                 </div>
               </div>
               <div>
